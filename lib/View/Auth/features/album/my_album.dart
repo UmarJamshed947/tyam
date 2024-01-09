@@ -66,8 +66,9 @@ class MyAlbum extends StatelessWidget {
                         onTap: () {},
                         child: Hero(
                           tag: "gallery",
-                          child: Image.asset("assets/images/img.png",
-                              fit: BoxFit.cover),
+                          child: Image.network(
+                              "https://i02.appmifile.com/images/2019/03/06/829199af-238d-46b6-8294-525d9e6e8226.png",
+                          fit: BoxFit.cover,),
                         ),
                       ),
                     ),

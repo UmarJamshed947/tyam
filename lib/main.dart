@@ -15,6 +15,7 @@ import 'package:tyamo/View/profile/profile_settings.dart';
 import 'package:tyamo/View/profile/profile_setup.dart';
 
 import 'View/Auth/features/DeviceSpecs/device_specs.dart';
+import 'View/Auth/features/album/album_new_post.dart';
 import 'View/Auth/features/album/album_post.dart';
 import 'View/Auth/features/locationinfo/location_info.dart';
 
